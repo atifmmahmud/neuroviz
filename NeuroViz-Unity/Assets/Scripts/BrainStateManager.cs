@@ -11,6 +11,11 @@ namespace NeuroViz
     public class BrainStateManager : MonoBehaviour
     {
         /// <summary>
+        /// The brain model
+        /// </summary>
+        public GameObject brain;
+
+        /// <summary>
         /// An internal reference to the current selected area; to be used by every other script to know "what's happening"
         /// </summary>
         [HideInInspector]
@@ -56,6 +61,12 @@ namespace NeuroViz
         public BrainState currentState = BrainState.Default;
 
         /// <summary>
+        /// Starting position of brain if camera is at (0,0,0) <br/>
+        /// Used to re-focus
+        /// </summary>
+        private Vector3 brainDistanceFromCamera;
+
+        /// <summary>
         /// A local store of all the brain areas and corresponding descriptions <br/>
         /// Loaded from the scriptable object on Start() to prevent frequent lookups to scriptable object
         /// </summary>
@@ -78,6 +89,7 @@ namespace NeuroViz
         private void Start()
         {
             LoadBrainData();
+            brainDistanceFromCamera = brain.transform.position;
         }
 
         /// <summary>
@@ -133,6 +145,15 @@ namespace NeuroViz
                     break;
             }
             currentState = targetState;
+        }
+        
+        /// <summary>
+        /// Brings the brain back into camera view
+        /// </summary>
+        public void ReFocusBrain()
+        {
+            brain.transform.position = Camera.main.transform.position + brainDistanceFromCamera;
+            Camera.main.transform.rotation = Quaternion.identity;
         }
     }
 }
