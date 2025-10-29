@@ -7,11 +7,11 @@ namespace NeuroViz
     {
         public UnityEvent onClick;
         public UnityEvent onClickAway;
-
         public BrainArea brainArea;
 
         private string brainAreaTitle;
         private string brainAreaDescription;
+        private bool isSelected = false;
 
         private void Start()
         {
@@ -21,13 +21,22 @@ namespace NeuroViz
 
         private void OnClick()
         {
-            this.GetComponent<Outline>().enabled = true;
-            BrainStateManager.Instance.SelectBrainArea(this.brainArea);
+            if (BrainStateManager.Instance.currentSelectedArea != null)
+            {
+                BrainStateManager.Instance.currentSelectedArea.OnClickAway();
+            }
+            BrainStateManager.Instance.SelectBrainArea(this);
+            isSelected = true;
+            var outline = this.GetComponent<Outline>();
+            if (outline != null) outline.enabled = true;
+
         }
 
         private void OnClickAway()
         {
-            this.GetComponent<Outline>().enabled = false;
+            isSelected = false;
+            var outline = this.GetComponent<Outline>();
+            if (outline != null) outline.enabled = false;
         }
     }
 }

@@ -11,6 +11,8 @@ namespace NeuroViz
     {
          Cerebellum,
          Cerebrum,
+         Left_Corpus_Callosum,
+         Right_Corpus_Callosum,
          Left_Amygdala,
          Right_Amygdala,
          Anterior_Commissure,

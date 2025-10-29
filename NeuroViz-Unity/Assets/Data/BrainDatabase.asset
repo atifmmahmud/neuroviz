@@ -18,3 +18,10 @@ MonoBehaviour:
     longDescription: "Your cerebellum maintains your balance, posture, coordination
       and fine motor skills. It\u2019s a small, half-circle shape that\u2019s located
       in the back of your brain around your brainstem."
+  - brainArea: 1
+    shortDescription: Deals with concious actions.
+    longDescription: "Your cerebrum interprets your five senses. It regulates conscious
+      actions that require thinking, like your speech, memory, behavior, personality,
+      movement, reasoning and judgment. It\u2019s the largest part of your brain,
+      divided into two halves: the left and right hemispheres. The two halves connect
+      by nerve fiber bundles (white matter) called the corpus callosum."

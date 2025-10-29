@@ -6,10 +6,9 @@ namespace NeuroViz
 {
     public class BrainStateManager : MonoBehaviour
     {
-        public BrainAreaDatabase brainAreaDatabase;
-
         [HideInInspector]
-        public BrainArea currentSelectedArea;
+        public ClickableBrainArea currentSelectedArea;
+        public BrainAreaDatabase brainAreaDatabase;
 
         private Dictionary<BrainArea, string> brainAreaDescriptions = new Dictionary<BrainArea, string>();
 
@@ -32,10 +31,13 @@ namespace NeuroViz
             LoadBrainData();
         }
 
-        public void SelectBrainArea(BrainArea area)
+        public void SelectBrainArea(ClickableBrainArea selectedArea)
         {
-            currentSelectedArea = area;
-            UIManager.Instance.DisplayBrainAreaDetails(area.ToString(), brainAreaDescriptions[area]);
+            currentSelectedArea = selectedArea;
+            if (brainAreaDescriptions.ContainsKey(selectedArea.brainArea))
+            {
+                UIManager.Instance.DisplayBrainAreaDetails(selectedArea.brainArea.ToString(), brainAreaDescriptions[selectedArea.brainArea]);
+            }
         }
 
         private void LoadBrainData()
