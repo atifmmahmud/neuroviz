@@ -6,19 +6,28 @@ namespace NeuroViz
     public class ClickableBrainArea : MonoBehaviour
     {
         public UnityEvent onClick;
+        public UnityEvent onClickAway;
+
         public BrainArea brainArea;
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
-        {
+        private string brainAreaTitle;
+        private string brainAreaDescription;
 
+        private void Start()
+        {
+            onClick.AddListener(OnClick);
+            onClickAway.AddListener(OnClickAway);
         }
 
-        // Update is called once per frame
-        void Update()
+        private void OnClick()
         {
+            this.GetComponent<Outline>().enabled = true;
+            BrainStateManager.Instance.SelectBrainArea(this.brainArea);
+        }
 
+        private void OnClickAway()
+        {
+            this.GetComponent<Outline>().enabled = false;
         }
     }
-
 }

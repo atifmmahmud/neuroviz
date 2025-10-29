@@ -7,7 +7,7 @@ namespace NeuroViz
     {
         private Transform _cameraTransform;
         private const float MOUSE_AXIS_SENSITIVITY = 2f;
-        private const float MOUSE_ROTATE_SENSITIVITY = 5f;
+        private const float MOUSE_ROTATE_SENSITIVITY = 20f;
         private const float KEYBOARD_MOVE_SENSITIVITY = 3f;
 
         private void Start()

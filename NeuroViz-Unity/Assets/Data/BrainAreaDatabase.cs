@@ -6,16 +6,15 @@ namespace NeuroViz
     [CreateAssetMenu(fileName = "BrainDatabase", menuName = "Neuroviz/Data/Brain")]
     public class BrainAreaDatabase : ScriptableObject
     {
-        [SerializeField]
-        List <BrainAreaData> brainAreas;
+        public List <BrainAreaData> brainAreas;
     }
 
     [System.Serializable]
     public class BrainAreaData
     {
-        [SerializeField] private BrainArea brainArea;
-        [SerializeField] private string shortDescription;
-        [SerializeField] private string longDescription;
+        public BrainArea brainArea;
+        public string shortDescription;
+        public string longDescription;
     }
 }
 
