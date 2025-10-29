@@ -3,14 +3,30 @@ using UnityEngine.Events;
 
 namespace NeuroViz
 {
+    /// <summary>
+    /// A component attached to the brain areas that can be clicked to read about
+    /// </summary>
     public class ClickableBrainArea : MonoBehaviour
     {
+        /// <summary>
+        /// The action to invoke when this area is clicked
+        /// </summary>
         public UnityEvent onClick;
+
+        /// <summary>
+        /// The action to invoke when any other area is clicked
+        /// </summary>
         public UnityEvent onClickAway;
+
+        /// <summary>
+        /// The enum reprenting what brain area this is <br/>
+        /// This is curcial for identifying this area and displaying information properly
+        /// </summary>
         public BrainArea brainArea;
 
-        private string brainAreaTitle;
-        private string brainAreaDescription;
+        /// <summary>
+        /// Set to true if this area is selected
+        /// </summary>
         private bool isSelected = false;
 
         private void Start()
@@ -19,6 +35,9 @@ namespace NeuroViz
             onClickAway.AddListener(OnClickAway);
         }
 
+        /// <summary>
+        /// Function called when this area is clicked on
+        /// </summary>
         private void OnClick()
         {
             if (BrainStateManager.Instance.currentSelectedArea != null)
@@ -32,6 +51,10 @@ namespace NeuroViz
 
         }
 
+        /// <summary>
+        /// Function called when something else is clicked <br/>
+        /// Works like a "de-select"
+        /// </summary>
         private void OnClickAway()
         {
             isSelected = false;
