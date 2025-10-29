@@ -25,3 +25,172 @@ MonoBehaviour:
       movement, reasoning and judgment. It\u2019s the largest part of your brain,
       divided into two halves: the left and right hemispheres. The two halves connect
       by nerve fiber bundles (white matter) called the corpus callosum."
+  - brainArea: 2
+    shortDescription: Connects the right and left hemispheres (sides).
+    longDescription: The corpus callosum is a structure in the middle of your brain
+      that connects the right and left hemispheres (sides). The structure is made
+      up of nerve fibers. Nerve fibers help the left and right sides of your brain
+      talk to each other by sending signals. This communication pathway allows you
+      to coordinate many essential functions that are part of your daily routine.
+  - brainArea: 3
+    shortDescription: Connects the right and left hemispheres (sides).
+    longDescription: The corpus callosum is a structure in the middle of your brain
+      that connects the right and left hemispheres (sides). The structure is made
+      up of nerve fibers. Nerve fibers help the left and right sides of your brain
+      talk to each other by sending signals. This communication pathway allows you
+      to coordinate many essential functions that are part of your daily routine.
+  - brainArea: 4
+    shortDescription: Deals with fear.
+    longDescription: "Your amygdala is a small, almond-shaped structure inside of
+      your brain. It\u2019s part of a larger network in your brain called the limbic
+      system. When it comes to your survival, your amygdala and limbic system are
+      extremely important. These are parts of your brain that automatically detect
+      danger. They also play a role in behavior, emotional control and learning."
+  - brainArea: 5
+    shortDescription: Deals with fear.
+    longDescription: "Your amygdala is a small, almond-shaped structure inside of
+      your brain. It\u2019s part of a larger network in your brain called the limbic
+      system. When it comes to your survival, your amygdala and limbic system are
+      extremely important. These are parts of your brain that automatically detect
+      danger. They also play a role in behavior, emotional control and learning."
+  - brainArea: 6
+    shortDescription: Connects the hemispheres.
+    longDescription: The anterior commissure is a white matter tract in the brain
+      that connects the two cerebral hemispheres, linking various structures including
+      the temporal lobes and olfactory pathways.
+  - brainArea: 7
+    shortDescription: "It\u2019s a part of your endocrine system and controls the
+      function of several other endocrine glands."
+    longDescription: "The anterior pituitary, also called adenohypophysis, is the
+      front lobe of your pituitary gland. This is a small, pea-sized gland located
+      at the base of your brain, below your hypothalamus. It\u2019s a part of your
+      endocrine system and controls the function of several other endocrine glands. 
+      Your pituitary gland consists of two lobes: the anterior (front) lobe and the
+      posterior (back) lobe. The anterior pituitary creates and releases six different
+      hormones, which regulate various bodily processes, including:  Growth, Metabolism,
+      Reproduction, Stress response, Lactation"
+  - brainArea: 8
+    shortDescription: Deals with voluntary movements.
+    longDescription: "The basal ganglia are best known for how they help your brain
+      control your body\u2019s movements. However, ongoing research continues to
+      uncover other ways that the basal ganglia interact with other parts of your
+      brain. Though experts continue to uncover more about the inner workings of
+      the basal ganglia, there\u2019s much about them that remains unknown."
+  - brainArea: 9
+    shortDescription: Connects the hippocampus to other parts of the brain.
+    longDescription: The fornix of the brain is a C-shaped bundle of nerve fibers,
+      part of the limbic system, that serves as the main output tract of the hippocampus.
+      It is crucial for memory, especially long-term and episodic memory recall,
+      and connects the hippocampus to other brain regions involved in emotion and
+      cognition.
+  - brainArea: 10
+    shortDescription: Deals with memory.
+    longDescription: 'Your hippocampus is responsible for the following cognitive
+      functions:  Learning, Short- and long-term memory, Visual-spatial memory (remembering
+      the position of your body in relation to nearby objects), Verbal memory (remembering
+      the right words to say), Declarative (or explicit) memory (the recollection
+      of facts or experiences).'
+  - brainArea: 11
+    shortDescription: "The hypothalamus is a structure deep within your brain. It\u2019s
+      the main link between your endocrine system and your nervous system. Your hypothalamus
+      keeps your body balanced in a stable state called homeostasis."
+    longDescription: "Your hypothalamus receives chemical messages from nerve cells
+      in your brain and from nerve cells in your body (your peripheral nervous system),
+      which also respond to signals outside your body.  Your hypothalamus\u2019s
+      main function is to react to these messages to keep your body in a stable state
+      or internal balance."
+  - brainArea: 12
+    shortDescription: It plays a crucial role in regulating fluid and electrolyte
+      balance.
+    longDescription: 'The lamina terminalis is a thin membrane forming the anterior
+      wall of the third ventricle, located between the optic chiasm and the anterior
+      commissure. It plays a crucial role in regulating fluid and electrolyte balance
+      by sensing blood osmolarity through circumventricular organs like the organum
+      vasculosum of the lamina terminalis (OVLT) and the subfornical organ (SFO),
+      which influence thirst and water content in the body. Embryologically, it is
+      the closed anterior neuropore.  '
+  - brainArea: 13
+    shortDescription: Plays a crucial role in memory.
+    longDescription: The mammillary bodies are a pair of nuclei located on the posterior
+      part of the hypothalamus that are crucial for memory, particularly spatial
+      and episodic memory
+  - brainArea: 14
+    shortDescription: Deals with smell.
+    longDescription: The olfactory bulb is a structure in the forebrain that processes
+      smell information. It receives input from olfactory receptors in the nose,
+      which are nerve cells that detect odors. The bulb then relays this processed
+      information to other brain regions like the amygdala and hippocampus, contributing
+      to emotions and memories associated with smell
+  - brainArea: 15
+    shortDescription: Deals with smell.
+    longDescription: The olfactory bulb is a structure in the forebrain that processes
+      smell information. It receives input from olfactory receptors in the nose,
+      which are nerve cells that detect odors. The bulb then relays this processed
+      information to other brain regions like the amygdala and hippocampus, contributing
+      to emotions and memories associated with smell
+  - brainArea: 16
+    shortDescription: Deals with hormones.
+    longDescription: 'The posterior pituitary is the back lobe of the pituitary gland
+      that stores and releases two hormones, antidiuretic hormone (ADH) and oxytocin,
+      which are produced in the hypothalamus. ADH helps regulate water retention
+      and blood pressure by acting on the kidneys, while oxytocin is involved in
+      uterine contractions during childbirth and the milk ejection reflex during
+      lactation.  '
+  - brainArea: 17
+    shortDescription: Relays sensory information to brain.
+    longDescription: "Your thalamus is an egg-shaped structure in the middle of your
+      brain. It\u2019s known as a relay station of all incoming motor (movement)
+      and sensory information \u2014 hearing, taste, sight and touch (but not smell)
+      \u2014 from your body to your brain. Like a relay or train station, all information
+      must first pass through your thalamus before being routed or directed to its
+      destination in your brain\u2019s cerebral cortex (the outermost layer of your
+      brain) for further processing and interpretation."
+  - brainArea: 18
+    shortDescription: Relays sensory information to brain.
+    longDescription: "Your thalamus is an egg-shaped structure in the middle of your
+      brain. It\u2019s known as a relay station of all incoming motor (movement)
+      and sensory information \u2014 hearing, taste, sight and touch (but not smell)
+      \u2014 from your body to your brain. Like a relay or train station, all information
+      must first pass through your thalamus before being routed or directed to its
+      destination in your brain\u2019s cerebral cortex (the outermost layer of your
+      brain) for further processing and interpretation."
+  - brainArea: 19
+    shortDescription: Part of the endocrine system.
+    longDescription: "Your thalamus is an egg-shaped structure in the middle of your
+      brain. It\u2019s known as a relay station of all incoming motor (movement)
+      and sensory information \u2014 hearing, taste, sight and touch (but not smell)
+      \u2014 from your body to your brain. Like a relay or train station, all information
+      must first pass through your thalamus before being routed or directed to its
+      destination in your brain\u2019s cerebral cortex (the outermost layer of your
+      brain) for further processing and interpretation."
+  - brainArea: 20
+    shortDescription: Protects brain wtih CSF.
+    longDescription: The ventricles are a series of four fluid-filled cavities in
+      the brain that produce, contain, and circulate cerebrospinal fluid (CSF). They
+      are the two lateral ventricles, the third ventricle, and the fourth ventricle.
+      CSF protects the brain from injury, provides nutrients, removes waste, and
+      cushions the brain and spinal cord.
+  - brainArea: 21
+    shortDescription: Connects pons and medulla.
+    longDescription: The midbrain is the smallest part of the brainstem, located
+      between the forebrain and the hindbrain. It serves as a crucial relay center
+      for sensory and motor pathways and is responsible for functions like eye movement,
+      visual and auditory processing, and motor control. Key structures include the
+      tectum (with the superior and inferior colliculi), the tegmentum, the cerebral
+      aqueduct, and the cerebral peduncles
+  - brainArea: 22
+    shortDescription: It forms a key connection between your brain above it and your
+      medulla oblongata and spinal cord below it.
+    longDescription: Your pons is the second-lowest section of your brainstem, just
+      above your medulla oblongata. It forms a key connection between your brain
+      above it and your medulla oblongata and spinal cord below it.  Your pons is
+      a key merging point for several of your cranial nerves, which are nerves with
+      direct connections to your brain. Those nerve connections are vital, helping
+      with several of the senses on or in your head, plus your ability to move various
+      parts of your face and mouth.
+  - brainArea: 23
+    shortDescription: Runs through your vertebrae.
+    longDescription: "Your spinal cord is a cylinder-shaped tube of tissue that runs
+      through the center of your spine, from your brainstem to your lower back. It\u2019s
+      made of nerves and cells that carry messages from your brain to the rest of
+      your body. Your spinal cord is one of the main parts of your nervous system."
