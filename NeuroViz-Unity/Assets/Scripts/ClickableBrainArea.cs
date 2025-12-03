@@ -29,6 +29,11 @@ namespace NeuroViz
         /// </summary>
         private bool isSelected = false;
 
+        /// <summary>
+        /// Save the previous material when you swap so you can reset
+        /// </summary>
+        private Material previousMaterial;
+
         private void Start()
         {
             onClick.AddListener(OnClick);
@@ -48,7 +53,8 @@ namespace NeuroViz
             isSelected = true;
             var outline = this.GetComponent<Outline>();
             if (outline != null) outline.enabled = true;
-
+            previousMaterial = this.gameObject.GetComponent<Renderer>().material;
+            this.gameObject.GetComponent<Renderer>().material = BrainStateManager.Instance.redMaterial;
         }
 
         /// <summary>
@@ -60,6 +66,7 @@ namespace NeuroViz
             isSelected = false;
             var outline = this.GetComponent<Outline>();
             if (outline != null) outline.enabled = false;
+            this.gameObject.GetComponent<Renderer>().material = previousMaterial;
         }
     }
 }

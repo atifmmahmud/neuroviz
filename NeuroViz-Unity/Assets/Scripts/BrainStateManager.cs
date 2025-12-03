@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace NeuroViz
 {
@@ -72,6 +73,12 @@ namespace NeuroViz
         /// </summary>
         private Dictionary<BrainArea, string> brainAreaDescriptions = new Dictionary<BrainArea, string>();
 
+        /// <summary>
+        /// Set the color of clicked area to this instead of outline
+        /// TODO: Refactor and maybe make this part of ClickableBrainArea
+        /// </summary>
+        public Material redMaterial;
+
         // Singleton implementation
         [HideInInspector]
         public static BrainStateManager Instance { get; private set; }
@@ -90,6 +97,11 @@ namespace NeuroViz
         {
             LoadBrainData();
             brainDistanceFromCamera = brain.transform.position;
+        }
+
+        private void Update()
+        {
+            // DragBrainArea();
         }
 
         /// <summary>
@@ -155,5 +167,15 @@ namespace NeuroViz
             brain.transform.position = Camera.main.transform.position + brainDistanceFromCamera;
             Camera.main.transform.rotation = Quaternion.identity;
         }
+
+        private void DragBrainArea()
+        {
+            var mouse = Mouse.current;
+            if (mouse == null) return;
+            if (mouse.leftButton.IsPressed())
+            {
+
+            }
+        }    
     }
 }
