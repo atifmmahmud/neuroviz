@@ -167,15 +167,5 @@ namespace NeuroViz
             brain.transform.position = Camera.main.transform.position + brainDistanceFromCamera;
             Camera.main.transform.rotation = Quaternion.identity;
         }
-
-        private void DragBrainArea()
-        {
-            var mouse = Mouse.current;
-            if (mouse == null) return;
-            if (mouse.leftButton.IsPressed())
-            {
-
-            }
-        }    
     }
 }

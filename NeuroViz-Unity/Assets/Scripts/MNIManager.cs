@@ -3,27 +3,35 @@ using UnityEngine.UI;
 
 public class MNIManager : MonoBehaviour
 {
-
+    /// <summary>
+    /// Reference to the MNI marker object
+    /// </summary>
     public GameObject mniMarker;
+
+    /// <summary>
+    /// Transform of the Anterior Comissure, the origin of MNI space
+    /// </summary>
     public Transform mniOrigin;
+
+    /// <summary>
+    /// The slider for adjusting x-axis coordinates
+    /// </summary>
     public Slider xSlider;
+
+    /// <summary>
+    /// The slider for adjusting y-axis coordinates
+    /// </summary>
     public Slider ySlider;
+
+    /// <summary>
+    /// The slider for adjusting z-axis coordinates
+    /// </summary>
     public Slider zSlider;
 
+    /// <summary>
+    /// 10 mm increment instead of 1 mm because brain is scaled 10x
+    /// </summary>
     private const float ONE_UNIT_INCREMENT = 0.01f;
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     /// <summary>
     /// Updates the position of the coordinate marker based on slider input <br/>
