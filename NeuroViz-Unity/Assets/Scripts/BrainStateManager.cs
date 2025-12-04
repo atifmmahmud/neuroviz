@@ -99,11 +99,6 @@ namespace NeuroViz
             brainDistanceFromCamera = brain.transform.position;
         }
 
-        private void Update()
-        {
-            // DragBrainArea();
-        }
-
         /// <summary>
         /// Handles clicking of a brain area; updates local references, relays call to UIManager
         /// </summary>
