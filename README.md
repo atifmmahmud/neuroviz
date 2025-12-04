@@ -2,6 +2,11 @@
 
 Neuroviz is an interactive brain anatomy visualization platform. This app allows the user to click on brain areas and learn about their functionality including internal regions like the limbic system.
 
+To try the project, you can visit the [NeuroViz Webpage](https://atifm.com/neuroviz/index.html).
+
+ ![A GIF walkthrough of using Neuroviz](/Neuroviz-GIF.gif)
+
+
 This project uses some external assets, listed as follows:
 
 - The 3D model of the brain was downloaded from TurboSquid: <https://www.turbosquid.com/FullPreview/624395>  
