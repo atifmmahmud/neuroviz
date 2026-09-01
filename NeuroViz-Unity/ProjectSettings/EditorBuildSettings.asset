@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BrainAreasViewer.unity
+    path: Assets/Scenes/v1/BrainAreasViewer.unity
     guid: 51112d570e7b5784da56b2b32f7c7562
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
